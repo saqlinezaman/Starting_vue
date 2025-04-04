@@ -1,21 +1,11 @@
 <script setup>
+import rating from './rating.vue';
 </script>
 <template>
  <section class="p-4 py-10" data-aos="fade-down" data-aos-duration="1000">
     <div class="w-full max-w-7xl mx-auto">
       <div class="flex flex-col gap-10 items-center">
-        <div class="flex gap-4 items-center">
-          <div class="flex gap-1">
-            <i class="bi bi-star-fill text-yellow-400"></i>
-            <i class="bi bi-star-fill text-yellow-400"></i>
-            <i class="bi bi-star-fill text-yellow-400"></i>
-            <i class="bi bi-star-fill text-yellow-400"></i>
-            <i class="bi bi-star-fill text-yellow-400"></i>
-          </div>
-          <span class="text-xs text-gray-600">
-            4.8/5 (45k reviews)
-          </span>
-        </div>
+        <rating count="3" text="4.8k"/>
         <h1 class="text-2xl lg:text-5xl text-center">
           Ethical Fashion: Elegant & Sustainable
           <span class="block text-gray-400 pt-4">Enhancing Your Style</span>
