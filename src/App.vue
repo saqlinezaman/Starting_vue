@@ -1,65 +1,19 @@
 <script setup>
+import HeaderSectionComponent from './components/HeaderSectionComponent.vue';
+import HeroSectionComponent from './components/HeroSectionComponent.vue';
 </script>
 
 <template>
-  <header class="p-4 pb-20">
-    <div class="w-full max-w-7xl mx-auto">
-      <div class="flex justify-between gap-8 items-center">
-        <div>
-          <a href="" class=" font-bold text-4xl"><span class="border-b-4 border-black">Lin</span>gare</a>
-        </div>
-        <div class="flex items-center gap-8">
-          <nav class="hidden lg:flex gap-8">
-            <a href="" class="hover:underline">Collections</a>
-            <a href="" class="hover:underline">Featured products</a>
-            <a href="" class="hover:underline">Contact us</a>
-          </nav>
-          <span class="hidden lg:block">|</span>
-          <div class="flex gap-4 text items-center">
-            <a href="">
-              <i
-                class="flex items-center justify-center bg-black text-white rounded-full w-[35px] h-[35px] bi bi-search"></i>
-            </a>
-            <a href="">
-              <i
-                class="flex items-center justify-center bg-black text-white rounded-full w-[35px] h-[35px] bi bi-bag"></i>
-            </a>
-            <a href="" class="text-2xl">
-              <i
-                class="flex items-center justify-center bg-black text-white rounded-full w-[35px] h-[35px] bi bi-person"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <section class="p-4 py-10" data-aos="fade-down" data-aos-duration="1000">
-    <div class="w-full max-w-7xl mx-auto">
-      <div class="flex flex-col gap-10 items-center">
-        <div class="flex gap-4 items-center">
-          <div class="flex gap-1">
-            <i class="bi bi-star-fill text-yellow-400"></i>
-            <i class="bi bi-star-fill text-yellow-400"></i>
-            <i class="bi bi-star-fill text-yellow-400"></i>
-            <i class="bi bi-star-fill text-yellow-400"></i>
-            <i class="bi bi-star-fill text-yellow-400"></i>
-          </div>
-          <span class="text-xs text-gray-600">
-            4.8/5 (45k reviews)
-          </span>
-        </div>
-        <h1 class="text-2xl lg:text-5xl text-center">
-          Ethical Fashion: Elegant & Sustainable
-          <span class="block text-gray-400 pt-4">Enhancing Your Style</span>
-        </h1>
-        <div class="flex flex-col md:flex-row items-center gap-4">
-          <a href="" class="bg-black border border-black text-white rounded-lg p-2 px-8 shadow-xl outline-none">Check
-            our collections</a>
-          <a href="" class="border border-black text-black rounded-lg p-2 px-8 shadow-xl outline-none">Sales</a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- header section -->
+   <HeaderSectionComponent/>
+  <!-- header section end -->
+
+  <!-- hero section -->
+    <HeroSectionComponent/>
+  <!-- Hero section end  -->
+
+ 
+
   <section class="p-4 py-20">
     <div class="w-full max-w-7xl mx-auto">
       <div class="flex flex-col lg:flex-row gap-4">
