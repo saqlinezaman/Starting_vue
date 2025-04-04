@@ -2,16 +2,6 @@
 </script>
 
 <template>
-   <div class="subheader bg-blue-200">
-    <div
-      class="mx-auto sm:px-7 px-4 max-w-screen-xl py-6 flex flex-col md:flex-row text-center md:text-left items-center">
-      <span class="font-bold text-black">
-        This is a demo, <a href="" target="_blank" class="underline">get the tailwind template here</a>
-      </span>
-      <a href="/templates-tailwind.html"
-        class="mt-4 md:mt-0 bg-white py-2 px-6 rounded ml-0 md:ml-auto text-black font-bold">Home</a>
-    </div>
-  </div>
   <header class="p-4 pb-20">
     <div class="w-full max-w-7xl mx-auto">
       <div class="flex justify-between gap-8 items-center">
